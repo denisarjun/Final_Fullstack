@@ -2,7 +2,7 @@
     @php $userRole = Auth::user()->user_level; @endphp
 @endauth
 
-<nav class="navbar shadow-xl navbar-expand-lg" style="background-color: #8423FF;">
+<nav class="navbar shadow-xl navbar-expand-lg" style="background-color: darkblue;">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ route('dashboard') }}"><img width="150px" src="{{ asset('img/logo.svg') }}"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"

@@ -1,4 +1,4 @@
-<nav class="navbar shadow-xl" style="background-color: #8423FF;">
+<nav class="navbar shadow-xl" style="background-color: darkblue;">
     <div class="container-fluid">
         <button type="button" class="btn btn-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
             aria-controls="offcanvasScrolling">
@@ -6,7 +6,7 @@
         </button>
         <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" style="color: white;"
             tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-            <div class="offcanvas-header" style="background-color: #8423FF; color: white;">
+            <div class="offcanvas-header" style="background-color: darkblue; color: white;">
                 <h3 class="offcanvas-title" id="offcanvasScrollingLabel">
                     Admin Dashboard
                 </h3>
@@ -56,7 +56,7 @@
             </div>
             <div class="offcanvas-footer" style="background-color: #8D99AE; color: white;">
                 <div class="grid ps-4 m-3">
-                    <h6>Loged In As :</h6>
+                    <h6>Logged In As :</h6>
                     <h6>
                         <i class="bi bi-person-lines-fill"></i> Admin
                     </h6>

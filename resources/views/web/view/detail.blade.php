@@ -126,17 +126,17 @@
 @endsection
 
 @section('footer')
-    <div class="container-flex text-center p-4" style="background: #A269FF">
-        <div class="card text-center" style="background: #A269FF">
-            <div class="card-header" style="background: #A269FF">
+    <div class="container-flex text-center p-4" style="background: skyblue">
+        <div class="card text-center" style="background: skyblue">
+            <div class="card-header" style="background: skyblue">
             </div>
             <div class="card-body">
-                <h5 class="card-title">Thrift Shop</h5>
-                <p class="card-text">Your Wallet is Our Best Friend</p>
-                <a href="#" class="btn btn-primary">Affordable Fashion, Unbeatable Prices</a>
+                <h5 class="card-title">Toko Thrift</h5>
+                <p class="card-text">Tampil Percaya Diri dengan Fashion Terbaik</p>
+                <a href="#" class="btn btn-primary">Pilihan Fashion Terjangkau untuk Semua</a>
             </div>
-            <div class="card-footer text-body-secondary" style="background: #A269FF">
-                Copyright &copy; Thrift Shop 2023
+            <div class="card-footer text-body-secondary" style="background: skyblue">
+                Copyright &copy; Toko Thrift 2023
             </div>
         </div>
     </div>

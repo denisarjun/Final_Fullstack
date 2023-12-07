@@ -73,7 +73,7 @@
 @section('footer')
     <div class="fixed-bottom p-3" style="background-color: #8D99AE;">
         <div class="d-flex align-items-center justify-content-between small">
-            <div class="text-muted">Copyright &copy; Thrift Shop 2023</div>
+            <div class="text-muted">Copyright &copy; Toko Thrift 2023</div>
         </div>
     </div>
 @endsection

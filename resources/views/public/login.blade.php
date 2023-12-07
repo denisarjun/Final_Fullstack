@@ -7,10 +7,9 @@
 @section('header')
     <style>
         body {
-            background: radial-gradient(circle at top right, transparent 10%, #dcdaff 10%, #dcdaff 20%, transparent 21%), radial-gradient(circle at left bottom, transparent 10%, #dcdaff 10%, #dcdaff 20%, transparent 21%), radial-gradient(circle at top left, transparent 10%, #dcdaff 10%, #dcdaff 20%, transparent 21%), radial-gradient(circle at right bottom, transparent 10%, #dcdaff 10%, #dcdaff 20%, transparent 21%), radial-gradient(circle at center, #dcdaff 30%, transparent 31%);
-            background-size: 4em 4em;
-            background-color: #ffffff;
-            opacity: 1
+            background: url('img/bgshape.jpg') no-repeat center center fixed;
+            background-size: cover;
+            opacity: 1;
         }
     </style>
 @endsection
