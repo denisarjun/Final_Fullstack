@@ -25,7 +25,7 @@
 
 @section('main')
     @include('layouts.nav')
-    <div class="container-flex text-center pt-3 pb-3" style="background: #A269FF">
+    <div class="container-flex text-center pt-3 pb-3" style="background: #98ABEE">
         @if (session('success'))
             <div class="alert alert-success alert-dismissible fade show" role="alert">
                 <strong>Berhasil!</strong> {{ session('success') }}
@@ -100,8 +100,8 @@
 
                 <label style="width: 200px" class="card text-bg-light p-2">
                     <img height="50px" src="{{ asset('img/' . $imageName) }}" class="mx-auto d-block" alt="...">
-                    <button class="m-2 btn btn-{{ $hasPaymentMethod ? 'warning' : 'primary' }}" type="button"
-                        data-bs-toggle="modal" data-bs-target="#{{ $modalId }}" name="metode_pembayaran">
+                    <button class="m-2 btn btn-{{ $hasPaymentMethod ? 'warning' : '' }}" type="button"
+                        data-bs-toggle="modal" data-bs-target="#{{ $modalId }}" name="metode_pembayaran" style="background-color: #98ABEE">
                         {{ $hasPaymentMethod ? 'Ubah Metode Pembayaran' : 'Tambahkan Metode' }}
                     </button>
                 </label>
@@ -110,7 +110,7 @@
                     aria-labelledby="{{ $modalId }}Label" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
-                            <div class="modal-header">
+                            <div class="modal-header" style="background-color: #98ABEE">
                                 <h1 class="modal-title fs-5" id="{{ $modalId }}Label">
                                     Metode Pembayaran</h1>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -141,7 +141,7 @@
                                 </div>
                                 <div class="modal-footer">
                                     <button type="submit"
-                                        class="btn btn-{{ $hasPaymentMethod ? 'warning' : 'primary' }}">{{ $hasPaymentMethod ? 'Ubah' : 'Simpan' }}</button>
+                                        class="btn btn-{{ $hasPaymentMethod ? 'warning' : '' }}" style="background-color: #98ABEE">{{ $hasPaymentMethod ? 'Ubah' : 'Simpan' }}</button>
                                 </div>
                             </form>
                         </div>
@@ -208,7 +208,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="submit" class="btn btn-primary">Simpan</button>
+                        <button type="submit" class="btn" style="background-color: #98ABEE">Simpan</button>
                     </div>
                 </form>
             </div>
@@ -219,7 +219,7 @@
         aria-labelledby="logoutModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header" style="background-color: #98ABEE">
                     <h1 class="modal-title fs-5" id="logoutModalLabel">
                         Konfirmasi Log-out</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -239,13 +239,13 @@
 
 @section('footer')
     <div class="container-flex text-center p-4" style="background: skyblue">
-        <div class="card text-center" style="background: skyblue">
+        <div class="card text-center" style="background: #98ABEE">
             <div class="card-header" style="background: skyblue">
             </div>
             <div class="card-body">
                 <h5 class="card-title">Toko Thrift</h5>
                 <p class="card-text">Tampil Percaya Diri dengan Fashion Terbaik</p>
-                <a href="#" class="btn btn-primary">Pilihan Fashion Terjangkau untuk Semua</a>
+                <a href="#" class="btn" style="background-color: #98ABEE">Pilihan Fashion Terjangkau untuk Semua</a>
             </div>
             <div class="card-footer text-body-secondary" style="background: skyblue">
                 Copyright &copy; Toko Thrift 2023

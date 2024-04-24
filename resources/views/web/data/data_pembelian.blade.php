@@ -26,7 +26,7 @@
         <div class="card text-center border-2">
             <div class="card-body">
                 <h2 class="card-title">Data Pembelian</h2>
-                <h4 class="card-text text-body-secondary">Halaman Data Pembelian</h4>
+                <h4 class="card-text" style="color: white">Halaman Data Pembelian</h4>
             </div>
         </div>
         <div class="container-fluid px-4 pt-4 pb-5">
@@ -168,7 +168,7 @@
                                     aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
-                                            <div class="modal-header">
+                                            <div class="modal-header" style="background-color: #98ABEE">
                                                 <h1 class="modal-title fs-5"
                                                     id="updatePembelianModalLabel_{{ $items->pembelian_id }}">Ubah
                                                     Data Pembelian Pakaian</h1>
@@ -239,7 +239,7 @@
                                     aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
-                                            <div class="modal-header">
+                                            <div class="modal-header" style="background-color: #98ABEE">
                                                 <h1 class="modal-title fs-5"
                                                     id="deletePembelianModalLabel_{{ $items->pembelian_id }}">
                                                     Konfirmasi Hapus</h1>

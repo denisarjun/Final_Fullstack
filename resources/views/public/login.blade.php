@@ -61,13 +61,13 @@
                         <p class="text-danger">{{ $message }}</p>
                     @enderror
                     <div class="form-group my-3 d-grid">
-                        <button class="btn btn-primary" type="submit">Login</button>
+                        <button class="btn" style="background-color: #98ABEE" type="submit">Login</button>
                     </div>
                 </form>
             </div>
             <div class="card-footer">
                 <a href="{{ route('register') }}" class="link-underline link-underline-opacity-0">
-                    <p class="text-center" style="color: #8423ff;">
+                    <p class="text-center" style="color: #98ABEE;">
                         Tidak punya akun? Silahkan mendaftar
                     </p>
                 </a>

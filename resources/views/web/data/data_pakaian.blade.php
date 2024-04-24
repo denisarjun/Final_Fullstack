@@ -26,7 +26,7 @@
         <div class="card text-center border-2">
             <div class="card-body">
                 <h2 class="card-title">Kategori Pakaian</h2>
-                <h4 class="card-text text-body-secondary">Halaman Kategori Pakaian</h4>
+                <h4 class="card-text" style="color: white">Halaman Kategori Pakaian</h4>
             </div>
         </div>
         <div class="container-fluid px-4 pt-4 pb-5">
@@ -53,7 +53,7 @@
                     </div>
                 @endif
                 <center>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                    <button type="button" class="btn" style="background-color: #98ABEE" data-bs-toggle="modal"
                         data-bs-target="#insertPakaianModal">
                         Tambah Pakaian
                     </button>
@@ -108,7 +108,7 @@
                                     aria-labelledby="updatePakaianModalLabel_{{ $items->pakaian_id }}" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
-                                            <div class="modal-header">
+                                            <div class="modal-header" style="background-color: #98ABEE">
                                                 <h1 class="modal-title fs-5"
                                                     id="updatePakaianModalLabel_{{ $items->pakaian_id }}">Ubah
                                                     Data Pakaian</h1>
@@ -173,7 +173,7 @@
                                     aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
-                                            <div class="modal-header">
+                                            <div class="modal-header" style="background-color: #98ABEE">
                                                 <h1 class="modal-title fs-5"
                                                     id="deletePakaianModalLabel_{{ $items->pakaian_id }}">
                                                     Konfirmasi Hapus</h1>
@@ -203,7 +203,7 @@
                                 aria-labelledby="insertPakaianModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">
+                                        <div class="modal-header" style="background-color: #98ABEE">
                                             <h1 class="modal-title fs-5" id="insertPakaianModalLabel">Tambah Data Pakaian
                                             </h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -247,7 +247,7 @@
                                                 </div>
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="submit" class="btn btn-primary">Simpan</button>
+                                                <button type="submit" class="btn" style="background-color: #98ABEE">Simpan</button>
                                             </div>
                                         </form>
                                     </div>

@@ -46,7 +46,7 @@
                             <h5 class="card-title">{{ $items->pakaian_nama }}</h5>
                             <p class="card-text">Rp. {{ $items->pakaian_harga }}</p>
                             <a href="{{ route('detail', ['pakaian_id' => $items->pakaian_id]) }}"
-                                class="btn btn-primary">Get Detail</a>
+                                class="btn" style="background-color: #98ABEE">Get Detail</a>
                         </div>
                     </div>
                 @endif
@@ -63,7 +63,7 @@
             <div class="card-body">
                 <h5 class="card-title">Toko Thrift</h5>
                 <p class="card-text">Tampil Percaya Diri dengan Fashion Terbaik</p>
-                <a href="#" class="btn btn-primary">Pilihan Fashion Terjangkau untuk Semua</a>
+                <a href="#" class="btn" style="background-color: #98ABEE">Pilihan Fashion Terjangkau untuk Semua</a>
             </div>
             <div class="card-footer text-body-secondary" style="background: skyblue">
                 Copyright &copy; Toko Thrift 2023
